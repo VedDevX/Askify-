@@ -50,7 +50,7 @@ Follow these steps to set up and run the project on your local machine:
    ```bash
    python app.py
 
-2. **Access the Application: Open your web browser and go to http://127.0.0.1:5000 to view the application**.
+2. **Access the Application: Open your web browser and go to http://127.0.0.1:5000 (may differ after run the app.py) to view the application**.
 
 3. Generate Questions:
   - Enter a paragraph in the provided text area.
