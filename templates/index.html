@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Askify : A Question Answer Generator</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Askify</h1>
+        <button class="mode-toggle" onclick="toggleMode()">🌙 Dark Mode</button>
+    </header>
+
+    <div class="form-container">
+        <label for="paragraph-input">Enter a paragraph:</label>
+        <textarea id="paragraph-input" rows="6" placeholder="Type or paste your paragraph here..."></textarea>
+
+        <label for="question-count">Number of questions to generate:</label>
+        <input type="number" id="question-count" value="1" min="1">
+
+        <button id="generate-button" onclick="generateQuestions()">Generate Questions And Answers</button>
+    </div>
+
+    <div id="results" class="hidden">
+        <div id="loading" class="spinner hidden">Generating questions...</div>
+        <div id="qaList"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Askify. All rights reserved.</p>
+        <p>Contact us: <a href="mailto:vedant.jadhav1928@gmail.com">vedant.jadhav1928@gmail.com</a></p>
+        <p>
+            <a href="privacy_policy.html">Privacy Policy</a> | 
+            <a href="terms.html">Terms of Service</a>
+        </p>
+        <p>
+            Follow and Connect with me on: 
+            <a href="https://github.com/VedDevX" target="_blank">Github</a> | 
+            <a href="www.linkedin.com/in/vedant-jadhav-1928fj" target="_blank">LinkedIn</a>
+        </p>
+        <p>Last updated: October 30, 2024</p>
+    </footer>
+    
+    <script src="../static/js/script.js"></script>
+</body>
+</html>
