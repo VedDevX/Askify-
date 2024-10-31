@@ -89,4 +89,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Here’s a video demonstration of the project:
 
-<img src="C:\Users\vedan\Documents\Askify\Images\Askify _ A Question Answer Generator - Google Chrome 2024-10-30 19-44-10" alt="Demo">
+<img src="../Images/Askify _ A Question Answer Generator - Google Chrome 2024-10-30 19-44-10.gif" alt="Demo">
